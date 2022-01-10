@@ -1,0 +1,26 @@
+Toko Buku :
+>Pembeli Buku
+>Produk Buku
+
+Backend :			Frontend :
+>nodemon			>React js (web)
+>node js --> ver lts		>React native (mobile)
+>express
+>body-parser
+>Cors
+>mysql
+
+Cara Buat Backend :						Database
+-buat folder						============================================================
+-buka VScode (buka folder yg sudah dibuat)			1.pembeli buku		2.produk buku (nama table, produk)
+-buka terminal (ctrl + `) tulis npm init -y				-id -->integer		-id -->integer
+-package json						-nomor_anggota -->string	-nama-produk -->string
+-npm i express body-parser mysql cors				-nama -->string		-judul-buku -->string
+							-username --> string		-halaman -->string
+							-username --> string		-genre -->string
+							-password -->string		-tahun -->string
+							-created --> tanggal		-penerbit -->string
+							-updated --> tanggal		-pengarang -->string
+										-isbn -->string
+										-harga -->string
+										-diskon -->string
